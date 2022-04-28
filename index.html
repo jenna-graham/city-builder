@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>JeNnA's cItY</title>
+    <title>JeNnA's cItY bUiLd</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         </section>
         <section class="top-buttons">
             <select id="climate-select">
-                <option value="tropical">tropical</option>
+                <option value="tropical"id=tropical>tropical</option>
                 <option value="desert">desert</option>
                 <option value="temperate">temperate</option>
                 <option value="polar">polar</option>
@@ -46,20 +46,21 @@
          </select>
             <div id="activities"></div>
         </section>
-
-        <section id="input">
-            <input type ="text" id="user-input"> 
-            <button id="button">add</button>
-
-        </section>
         
-            
-
-           
-            
+        
+        <label>
+            Give your city a Name! <br>
+            <input type ="text" id="user-input"> 
+            <button id="button">Add</button>
+        </label>
+        <div id="stats">
+            <p id="count"></p>
+            <div id="city-names"></div>
+            </div>
+                          
     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
+        <div class="copy gutter-right">&copy; 2022 Alchemy Code Lab</div>
     </footer>
 
     <script type="module" src="./app.js"></script>
