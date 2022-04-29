@@ -4,12 +4,13 @@
     display: flex;
     flex-direction: row;
     width: auto;
-    /* padding-left: 70px; */
+
 }
 #climate-select {
     margin: 10px;
     text-align: center;   
 }
+
 #known-for-select {
     margin: 10px;
     text-align: center;
@@ -23,14 +24,15 @@
     display: flex;
     flex-direction: row;
 } 
+
 #climate {
     width: 500px;
     height: 350px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../assets/tropical.jpg');
-    
+    background-image: url('../assets/tropical.jpg');   
 }
+
 #known-for {
     width: 500px;
     height: 350px;
@@ -46,9 +48,11 @@
     background-repeat: no-repeat;
     background-image: url('../assets/burning-man.jpg');
 }
+
 .top-buttons div {
     padding: 10px;
 }
+
 #count {
     font-weight: bold;
     background-color: tan;
@@ -56,12 +60,14 @@
     text-align: center;
     padding: 10px;
 }
+
 label {
     font-weight: bold;
     background-color: tan;
     font-family: 'Playfair Display SC', serif;
     padding: 10px;
 }
+
 #slogans {
     background-color: tan;
     font-family: 'Playfair Display SC', serif;
@@ -69,6 +75,7 @@ label {
     padding: 10px;
     justify-items: center;
 }
+
 #stats {
     padding-bottom: 20px;
     justify-items: center;   

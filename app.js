@@ -48,7 +48,7 @@ sloganButton.addEventListener('click', () => {
 });
 
 function displayStats() {
-    countEl.textContent = `You have changed the climate ${climateCount} time(s), what the city is known for ${knownForCount} time(s) and fun activities you can do ${activitiesCount} time(s).`;
+    countEl.textContent = `You have changed the climate ${climateCount} time(s)! You changed what the city is known for ${knownForCount} time(s)! You changed fun activities ${activitiesCount} time(s)!`;
 }
 
 function displayCatchphrases() {

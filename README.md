@@ -7,6 +7,8 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 ## Making a plan
 
 1) **Make a drawing of your app. Simple "wireframes"** 
+## https://miro.com/welcomeonboard/ZVVxbUJ5ektMbERlenNVQ0F0T0J2bmZZNmpCdG9MZXNFQ1V4cXNNTWIxbXdrVnRzSUFuZzU2M2R1VU1paWhuR3wzNDU4NzY0NTIzOTgzNTQ0MzM5?share_link_id=283804033401
+
 1) **Look at the drawing and name the HTML elements you'll need to realize your vision**
 1) **Look at the drawing and imagine using the app. What _state_ do you need to track?** 
 1) **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")** 
