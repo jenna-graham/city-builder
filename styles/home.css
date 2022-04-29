@@ -1,95 +1,75 @@
 /* add home page styles here */
-}
+
 .top-buttons {
     display: flex;
     flex-direction: row;
-    padding-left: 60px;
+    width: auto;
+    /* padding-left: 70px; */
 }
-
-
 #climate-select {
-    margin: 10px; 
-    justify-items: center;
-    /* padding-left: 100px; */
-    
+    margin: 10px;
+    text-align: center;   
 }
-.custom-select {
-    position: relative;
-}
-.custom-select select {
-    
-
-}
-
-
 #known-for-select {
     margin: 10px;
-    justify-content: center;
+    text-align: center;
 }
 
 #activities-select {
     margin: 10px;
-    justify-items: center;
+    text-align: center;
 }
-
 #input {
     display: flex;
     flex-direction: row;
-}
-
-#climate.div {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    /* padding-left: 10px; */
+} 
+#climate {
+    width: 500px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../assets/tropical.jpg');
     
 }
-#climate {
-    width: 400px;
-    height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
 #known-for {
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 350px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-image: url('../assets/beaches.jpg');
 }
-#known-for.div {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-}
-#activities {
-    width: 400px;
-    height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-#activities.div {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
 
+#activities {
+    width: 500px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../assets/retreat.jpg');
 }
-div {
-    margin-bottom: 10px;
-    justify-content: center;
+.top-buttons div {
+    padding: 10px;
 }
 #count {
     font-weight: bold;
     background-color: tan;
     font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    padding: 10px;
 }
 label {
     font-weight: bold;
     background-color: tan;
     font-family: 'Playfair Display SC', serif;
+    padding: 10px;
 }
-
-/* #climate > div{
-    display: grid;
-    grid-template-rows: 50% 50%; */
-
+#slogans {
+    background-color: tan;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    padding: 10px;
+    justify-items: center;
+}
+#stats {
+    padding-bottom: 20px;
+    justify-items: center;   
+}
