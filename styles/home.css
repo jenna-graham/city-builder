@@ -36,7 +36,7 @@
     height: 350px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../assets/beaches.jpg');
+    background-image: url('../assets/northern-lights.jpg');
 }
 
 #activities {
@@ -44,7 +44,7 @@
     height: 350px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../assets/retreat.jpg');
+    background-image: url('../assets/burning-man.jpg');
 }
 .top-buttons div {
     padding: 10px;
