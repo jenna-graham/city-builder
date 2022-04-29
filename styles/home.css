@@ -1,18 +1,35 @@
 /* add home page styles here */
+}
 .top-buttons {
     display: flex;
-    flex-direction: row;  
-}
-#climate-select {
-    margin: 20px;
+    flex-direction: row;
+    padding-left: 60px;
 }
 
+
+#climate-select {
+    margin: 10px; 
+    justify-items: center;
+    /* padding-left: 100px; */
+    
+}
+.custom-select {
+    position: relative;
+}
+.custom-select select {
+    
+
+}
+
+
 #known-for-select {
-    margin: 20px;
+    margin: 10px;
+    justify-content: center;
 }
 
 #activities-select {
-    margin: 20px;
+    margin: 10px;
+    justify-items: center;
 }
 
 #input {
@@ -20,9 +37,59 @@
     flex-direction: row;
 }
 
-/* #climate {
-    width: 600px;
-    height: 400px;
-    background-image: url('../assets/desert.jpg'); 
+#climate.div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    /* padding-left: 10px; */
+    
+}
+#climate {
+    width: 400px;
+    height: 200px;
     background-size: contain;
-    background-repeat: no-repeat; } */
+    background-repeat: no-repeat;
+
+}
+#known-for {
+    width: 400px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#known-for.div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+#activities {
+    width: 400px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#activities.div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+div {
+    margin-bottom: 10px;
+    justify-content: center;
+}
+#count {
+    font-weight: bold;
+    background-color: tan;
+    font-family: 'Playfair Display SC', serif;
+}
+label {
+    font-weight: bold;
+    background-color: tan;
+    font-family: 'Playfair Display SC', serif;
+}
+
+/* #climate > div{
+    display: grid;
+    grid-template-rows: 50% 50%; */
+

@@ -17,35 +17,46 @@
         
     </header>
     <main>
+        
         <section class="header-section">
             <h2>
                 City Builder
             </h2>
         </section>
         <section class="top-buttons">
+            <div id="custom-select-climate"> 
             <select id="climate-select">
-                <option value="tropical"id=tropical>tropical</option>
+                <option value="choose-climate">favorite climate?!</option>
+                <option value="tropical">tropical</option>
                 <option value="desert">desert</option>
                 <option value="temperate">temperate</option>
                 <option value="polar">polar</option>
             </select>
             <div id="climate"></div>
+        </div>
             
+            <div id="custom-select-known-for">
             <select id="known-for-select">
-            <option value="beaches">beaches</option>
-            <option value="sunsets">sunsets</option>
-            <option value="glaciers">glaciers</option>
-            <option value="seasons">seasons</option>
+                <option value="choose-knownFor">which do you want to see?</option>
+            <option value="beach">beaches</option>
+            <option value="sunset">sunsets</option>
+            <option value="northern-lights">northern lights</option>
+            <option value="seasons">changing seasons</option>
         </select>
-            <div id="known-for"></div>
+        <div id="known-for"></div>
+    </div> 
+        <div id="custom-select-climate">
             <select id="activities-select">
-                <option value="beach-parties">beach parties</option>
+                <option value="choose-activity">what should we</option>
+                <option value="beach-party">beach parties</option>
                 <option value="burning-man">burning man</option>
-                <option value="play">playing</option>
-                <option value="hiking">hiking</option>
+                <option value="play">playing in the snow</option>
+                <option value="hiking">waterfall hikes</option>
          </select>
-            <div id="activities"></div>
+        <div id = "activities"></div>
+            </div>
         </section>
+
         
         
         <label>
@@ -55,7 +66,7 @@
         </label>
         <div id="stats">
             <p id="count"></p>
-            <div id="city-names"></div>
+            <div id="slogans"></div>
             </div>
                           
     </main>
