@@ -1,1 +1,82 @@
 /* add home page styles here */
+
+.top-buttons {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+
+}
+#climate-select {
+    margin: 10px;
+    text-align: center;   
+}
+
+#known-for-select {
+    margin: 10px;
+    text-align: center;
+}
+
+#activities-select {
+    margin: 10px;
+    text-align: center;
+}
+#input {
+    display: flex;
+    flex-direction: row;
+} 
+
+#climate {
+    width: 500px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../assets/tropical.jpg');   
+}
+
+#known-for {
+    width: 500px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../assets/northern-lights.jpg');
+}
+
+#activities {
+    width: 500px;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../assets/burning-man.jpg');
+}
+
+.top-buttons div {
+    padding: 10px;
+}
+
+#count {
+    font-weight: bold;
+    background-color: tan;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    padding: 10px;
+}
+
+label {
+    font-weight: bold;
+    background-color: tan;
+    font-family: 'Playfair Display SC', serif;
+    padding: 10px;
+}
+
+#slogans {
+    background-color: tan;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    padding: 10px;
+    justify-items: center;
+}
+
+#stats {
+    padding-bottom: 20px;
+    justify-items: center;   
+}

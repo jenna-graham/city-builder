@@ -9,62 +9,62 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>JeNnA's cItY bUiLd</title>
 </head>
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="./assets/big-logo.png" />
-        </div>
-    </header>
+         </header>
     <main>
-        <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
+        <section class="header-section">
             <h2>
-                Welcome to Alchemy Bootstrap!
+                City Builder
             </h2>
-
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-
         </section>
-    </main>
+        <section class="top-buttons">
+            <div id="custom-select-climate"> 
+            <select id="climate-select">
+                <option value="choose-climate">favorite climate?!</option>
+                <option value="tropical">tropical</option>
+                <option value="desert">desert</option>
+                <option value="polar">polar</option>
+                <option value="temperate">temperate</option>
+                </select>
+            <div id="climate"></div>
+        </div>
+            <div id="custom-select-known-for">
+            <select id="known-for-select">
+                <option value="choose-knownFor">what is your city known for?</option>
+            <option value="beaches">beaches</option>
+            <option value="sunset">sunsets</option>
+            <option value="northern-lights">northern lights</option>
+            <option value="seasons">changing seasons</option>
+        </select>
+        <div id="known-for"></div>
+    </div> 
+        <div id="custom-select-climate">
+            <select id="activities-select">
+                <option value="choose-activity">what should we do?</option>
+                <option value="retreat">wellness retreat</option>
+                <option value="burning-man">burning man</option>
+                <option value="play">playing in the snow</option>
+                <option value="hiking">waterfall hikes</option>
+         </select>
+        <div id = "activities"></div>
+            </div>
+        </section>
+        <label>
+            Give your city a Name! <br>
+            <input type ="text" id="user-input"> 
+            <button id="button">Add</button>
+        </label>
+        <div id="stats">
+            <p id="count"></p>
+            <div id="slogans"></div>
+            </div>
+     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
+        <div class="copy gutter-right">&copy; 2022 Alchemy Code Lab</div>
     </footer>
 
     <script type="module" src="./app.js"></script>
